@@ -1,6 +1,8 @@
 # Files
 
-## Getting Started
+A monorepo for the files frontend, and a IC backend.
+
+## Setup
 
 1. Create a dfx.json file
 2. Create a canisters folders with some canister folders in it.
@@ -10,6 +12,11 @@
 6. Use `DFX_VERSION=0.7.0 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"`
 7. `dfx deploy`
 8. Add the rust wasm32 compilation target: `rustup target add wasm32-unknown-unknown`
+
+## Getting Started
+
+1. Git clone
+2. dfx deploy
 
 ## Things to fix (Forum Posts)
 
