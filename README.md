@@ -23,3 +23,4 @@ A monorepo for the files frontend, and a IC backend.
 * Add a full link to a canister in the output for local dev
 * Search up for closest dfx.json. So if you're in a sub folder it still works
 * add custom aliases to dfx command. For example `dfx d` for `dfx deploy`.
+* Deploy to `IC` badge for repos.
