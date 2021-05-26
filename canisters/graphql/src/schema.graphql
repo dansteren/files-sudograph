@@ -1,0 +1,17 @@
+type File {
+  id: ID!
+  # createdAt: Date!
+  # modifiedAt: Date!
+  # updatedAt: Date!
+  name: String!
+  contents: String
+  # size: Int!
+  owner: User! @relation(name: "userFiles")
+}
+
+type User {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  files: [File!]! @relation(name: "userFiles")
+}
