@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "playground": {
+      "type": "assets",
+      "source": ["canisters/playground"]
+    }
+  }
+}
