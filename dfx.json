@@ -2,7 +2,7 @@
   "canisters": {
     "playground": {
       "type": "assets",
-      "source": ["canisters/playground"]
+      "source": ["canisters/playground/build"]
     }
   }
 }
